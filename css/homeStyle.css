@@ -39,8 +39,8 @@ h1, h3, p{
     margin-bottom: 5px;
 }
 .btn-small:hover {
-    background-color: goldenrod;
-    color: black;
+    background-color: rgb(116, 107, 115);
+    color: rgb(60, 48, 68);
 }
 
 .card{
@@ -64,6 +64,7 @@ h1, h3, p{
     top: 0;
     bottom: 0;
     width: 100%;
+    border: #FFF, 1px, solid;
 
 }
 
@@ -78,6 +79,9 @@ h1, h3, p{
 .responsive-img{
     width: 30%;
     align-content: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+
 }
 
 .parallax-container{
