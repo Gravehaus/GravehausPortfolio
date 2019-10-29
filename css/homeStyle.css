@@ -1,5 +1,5 @@
 *{
-    color:rgba(255, 231, 124, 0.9);
+    color:rgba(255, 233, 111, 0.9);
     font-family:'Source Code Pro', monospace;
 }
 body,
@@ -12,32 +12,25 @@ nav{
 
 nav a {
     font-size: 5rem;
-    background-color: black;
     letter-spacing: -0.5px;
-    text-align:center;   
+    text-align:center; 
+    color:rgba(255, 233, 111, 0.9);
+  
 }
 
-#mainText{
-    margin-top: 30vh;
-}
+
 
 h1, h3, p{
-
     text-align: center;
     padding-bottom: 5%;
-
-}
-.center{
-    padding-bottom: 5%;
 }
 
 
 
-#work .contactRow{
-    background: black;
-    text-align: center;
-}
 
+#name,#email,#message, a{
+    color:rgba(255, 208, 0, 0.9);
+}
 
 .overlay-descNav{
     align-content: center;
@@ -50,11 +43,12 @@ nav .nav-wrapper {
     display: contents;
 }
 
-.btn-small{
+.btn-small, .btn-large{
     background-color: black;
     letter-spacing: -0.5px;
     border: solid 1px rgba(187, 0, 125, 0.6);
     text-align:center;
+    display:inline-flex;
     
 }
 
@@ -67,10 +61,7 @@ nav .nav-wrapper {
     background: rgba(0,0,0,.6);
     border: #FFF, solid, 1px;
 }
- /* {
-    max-height: 100%;
-    /* height: 100%; */
-/* } */ 
+
 .card.small .card-content {
     max-height: 100%;
 }
@@ -95,28 +86,23 @@ div {
     text-align: center;
 }
 #work, #education, .contactRow {
-    background: black;
     text-align: center;
 }
-body, nav {
-    background: black;
-    font-family: 'Source Code Pro', monospace;
-}
+
 
 
 .hydrated {
     visibility: inherit;
 }
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 992px),
 html {
     font-size: 14.5px;
 }
-}
 
-@media only screen and (min-width: 0){
+@media only screen and (min-width: 0),
 html {
     font-size: 14px;
-}}
+}
 html {
     line-height: 1.5;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
@@ -164,17 +150,13 @@ img {
     top: 0;
     bottom: 0;
     width: 100%;
-    border: #FFF, 1px, solid;
     
 }
 
-.footer-copyright{
+.footer-copyright, .form-control{
     text-align: center;
     background-color: black;
 }
-
-
-
 
 .responsive-img{
     width: 30%;
@@ -185,10 +167,7 @@ img {
 }
 
 .parallax-container{
-    background-color: black;
-    color:rgba(224, 221, 216,.9);
     text-align: center;
-    border-bottom: solid 1px rgba(224, 221, 216,.3) ;
     margin-top: 5%;
    padding-bottom: -2%;
 }
@@ -200,7 +179,6 @@ img.responsive-img, video.responsive-video {
     display: block;
     margin: auto;
 }
-
 
 
 .contactCont, contact-wrap{
@@ -229,11 +207,11 @@ img.responsive-img, video.responsive-video {
   }
 
 
-
+/* 
   .video-container {
     position: relative;
    
-  }
+  } */
   video {
     height: auto;
     vertical-align: middle;
@@ -255,4 +233,14 @@ img.responsive-img, video.responsive-video {
     justify-content: center;
   }
 
- 
+  .ParallaxVideo{ 
+    height: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px; 
+}
+.ParallaxVideo video{ 
+    min-width: 100%;
+    position: fixed;
+    top:0;
+    z-index: -999;
+}
