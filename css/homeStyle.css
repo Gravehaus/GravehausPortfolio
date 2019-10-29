@@ -1,5 +1,5 @@
 *{
-    color:rgba(224, 221, 216,.9); /*This is for the icons*/
+    color:rgba(255, 223, 244, 0.9);
     font-family:'Source Code Pro', monospace;
 }
 body,
@@ -41,7 +41,7 @@ h1, h3, p{
     background-color: black;
     letter-spacing: -0.5px;
     border: solid 1px rgba(187, 0, 125, 0.6);
-    align:center;
+    text-align:center;
 }
 
 .btn-small:hover {
