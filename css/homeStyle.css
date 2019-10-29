@@ -166,11 +166,6 @@ img {
 
 }
 
-.parallax-container{
-    text-align: center;
-    margin-top: 5%;
-   padding-bottom: -2%;
-}
 
 
 img.responsive-img, video.responsive-video, .parallax-container {
@@ -219,7 +214,6 @@ img.responsive-img, video.responsive-video, .parallax-container {
   }
   .overlay-desc {
     position: relative;
-    top: 0; right: 0; bottom: 0; left: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,7 +221,6 @@ img.responsive-img, video.responsive-video, .parallax-container {
 
   .overlay-desc1{
     position: relative;
-    /* top: 25%; right: 0; left: 0; */
     display: flex;
     align-items: center;
     justify-content: center;
