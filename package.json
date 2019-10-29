@@ -1,0 +1,19 @@
+{
+  "name": "gravehausportfolio",
+  "version": "1.0.0",
+  "description": "gravehaus portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gravehaus/GravehausPortfolio.git"
+  },
+  "author": "Julia Graves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gravehaus/GravehausPortfolio/issues"
+  },
+  "homepage": "https://github.com/Gravehaus/GravehausPortfolio#readme"
+}
