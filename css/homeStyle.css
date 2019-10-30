@@ -17,17 +17,10 @@ nav a {
     color:rgba(255, 233, 111, 0.9);
   
 }
-
-
-
-h1, h3, p{
+h1{
     text-align: center;
     padding-bottom: 5%;
 }
-
-
-
-
 #name,#email,#message, a{
     color:rgba(255, 208, 0, 0.9);
 }
@@ -35,12 +28,14 @@ h1, h3, p{
 .overlay-descNav{
     align-content: center;
 }
-
 nav .nav-wrapper {
     position: relative;
     height: 100%;
     margin: 1vh;
     display: contents;
+}
+.helloSection{
+    margin-top: 10%;
 }
 
 .btn-small, .btn-large{
@@ -84,11 +79,11 @@ div {
 }
 .center, .center-align {
     text-align: center;
+    padding-bottom: 5%;
 }
 #work, #education, .contactRow {
     text-align: center;
 }
-
 
 
 .hydrated {
@@ -97,7 +92,9 @@ div {
 @media only screen and (min-width: 992px),
 html {
     font-size: 14.5px;
+    
 }
+
 
 @media only screen and (min-width: 0),
 html {
@@ -161,12 +158,10 @@ img {
 .responsive-img{
     width: 30%;
     align-content: center;
-    padding-bottom: 5%;
-    padding-top: 5%;
 
 }
 
-
+.
 
 img.responsive-img, video.responsive-video, .parallax-container {
     max-width: 100%;
@@ -186,14 +181,14 @@ img.responsive-img, video.responsive-video, .parallax-container {
 }
 
 #overlay {
-    position: absolute; 
+    /* position: absolute;  */
     top: 100px; 
     color: #FFF; 
     text-align: center;
     font-size: 20px;
     background-color: rgba(221, 221, 221, 0.3);
     width: 640px;
-    padding: 10px 0;
+   
     z-index: 2147483647;
   }
   
@@ -202,13 +197,13 @@ img.responsive-img, video.responsive-video, .parallax-container {
   }
 
 
-/* 
   .video-container {
     position: relative;
-   
-  } */
+    height: 0;
+    overflow: hidden;
+  }
   video {
-    height: auto;
+    height: auto; /*May change this*/
     vertical-align: middle;
     width: 100%;
   }
@@ -217,6 +212,8 @@ img.responsive-img, video.responsive-video, .parallax-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 10%;
+    padding-bottom: -10%;
   }
 
   .overlay-desc1{
