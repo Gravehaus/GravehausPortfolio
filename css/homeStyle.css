@@ -161,7 +161,11 @@ img {
 
 }
 
-.
+#edId{
+    margin:auto;
+    width: 75%;
+    padding-top: 1em;
+}
 
 img.responsive-img, video.responsive-video, .parallax-container {
     max-width: 100%;
