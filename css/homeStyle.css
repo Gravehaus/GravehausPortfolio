@@ -10,7 +10,6 @@ body{
 
 section{
     height:cover;
-    padding-bottom: 5em;
 }
 
 nav, header{
@@ -41,6 +40,7 @@ h3{
 #name,#email,#message, a{
     color:rgba(255, 208, 0, 0.9);
 }
+
 
 .overlay-descNav{
     align-content: center;
@@ -191,8 +191,10 @@ img.responsive-img, video.responsive-video, .parallax-container {
     display: block;
     margin: auto;
 }
-
-
+#contactSection, #resume{
+    text-align: center;
+}
+/* 
 .contactCont, contact-wrap{
     text-align: center;
     height: fit-content;
@@ -200,7 +202,7 @@ img.responsive-img, video.responsive-video, .parallax-container {
     box-sizing: inherit;
     margin-top: 1em;
     margin-bottom: 1em;
-}
+} */
 
 #overlay {
     /* position: absolute;  */
