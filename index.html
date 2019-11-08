@@ -25,25 +25,30 @@
 
     <!---NAV BAR--->
 
-    <nav>
+    <nav class="right hide-on-med-and-down">
 
         <div class="nav-wrapper">
 
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <ul id="nav-mobile" class="left">
+                    <li><a href="#" class="btn-small waves-effect scale-transition"><i
+                        class="material-icons left">details</i>Home.</a></li>
 
-                <li><a href="#portfolio" class="btn-small waves-effect scale-transition"><i
+                <li><a href="#portfolio" class=" btn-small waves-effect scale-transition"><i
                             class="material-icons right">details</i>Projects.</a></li>
 
-                <li><a href="#aboutMeSection" class="btn-small waves-effect scale-transition"><i
+                <li><a href="#aboutMeSection" class=" btn-small waves-effect scale-transition"><i
                             class="material-icons right">details</i>About Me.</a></li>
 
-                <li><a href="#technicalSection" class="btn-small waves-effect scale-transition"><i
+                <li><a href="#technicalSection" class=" btn-small waves-effect scale-transition"><i
                             class="material-icons right">details</i>Skills- Technical.</a></li>
 
-                <li><a href="#designSection" class="btn-small waves-effect scale-transition"><i
+                <li><a href="#designSection" class=" btn-small waves-effect scale-transition"><i
                             class="material-icons right">details</i>Skills- Design.</a></li>
+                
+                <li><a href="#education" class=" btn-small waves-effect scale-transition"><i
+                                class="material-icons right">details</i>Education</a></li>
 
-                <li><a href="#contactSection" class="btn-small waves-effect scale-transition"><i
+                <li><a href="#contactSection" class=" btn-small waves-effect scale-transition"><i
                             class="material-icons right">details</i>Contact.</a></li>
 
             </ul>
@@ -83,14 +88,17 @@
     <!--------------PORTFOLIO SECTION--------------->
 
     <div class="section scrollSpy " id="portfolio">
-        <div class="container">
-            <h3 class="header text_b center" style="text-decoration: underline">Projects</h3>
-            <div class="row ">
 
+            <div class="section">
+                    <div class="section scrollspy" id="portfolio">
+                        <div class="container">
+            
+        <!-- <div class="container"> -->
+    <div class="row ">
+            <h3 class="header text_b center" style="text-decoration: underline">Projects</h3>
                 <div class="col s12 m12 l4 myCard ">
 
                     <!------------------------MYCARD------------------------>
-
                     <div class="card hoverable black">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="./css/images/voonderbartitle.gif">
@@ -115,6 +123,8 @@
                         </div>
                     </div>
                 </div>
+
+
 
                 <!------------------------------------------------------->
                 <div class="col s12 m12 l4 myCard">
@@ -163,6 +173,11 @@
                         </div>
                     </div>
                 </div>
+
+                <!------------------------------->
+
+                <!--SECOND ROW-->
+
 
                 <!--------------------------------->
 
@@ -240,6 +255,9 @@
                 </div>
 
                 <!-------------------------------------------------->
+
+                <!--THIRD ROW-->
+
                 <!-------------------------------------------------->
 
 
@@ -270,10 +288,14 @@
         </div>
     </div>
 
+    
     <!---------------ABOUT ME SECTION--------------->
-    <div class="section">
-        <div class="section scrollspy" id="aboutMeSection">
-            <div class="container">
+ 
+                    <div class="section scrollSpy " id="aboutMeSection">
+
+                            <div class="section">
+                                    <div class="section scrollspy" id="aboutMeSection">
+                                        <div class="container">
                 <h3 class="header text_b center" style="text-decoration: underline">About Me</h3>
                 <div class="row ">
                     <div class="col s12 m12 l12" style="text-align:center">
@@ -298,28 +320,25 @@
 
     </div>
     <!-------------------Technical SKILLS--------------------------->
-    <div class="technical">
-        <div class="section scrollspy" id="technicalSection">
-            <div class="container">
+    <div class="section scrollSpy technical " id="technicalSection">
+
+            <div class="section">
+                    <div class="section scrollspy" id="aboutMeSection">
+                        <div class="container">
                 <h3 class="header text_b center" style="text-decoration: underline">Skills-Technical</h3>
 
                 <div class="row center-align">
-                    <div class="row">
+                    
                         <div class="col s3 m3"><img src="./css/skillsimg/html-256.png">
                             <p>HTML</p>
                         </div>
                         <div class="col s3 m3"><img src="./css/skillsimg/css-512.png">
                             <p>CSS</p>
-                        </div>
-                        <div class="col s3 m3"><img src="./css/skillsimg/bootstrap-256.png">
-                            <p>Bootstrap</p>
-                        </div>
-                        <div class="col s3 m3"><img src="./css/skillsimg/materialize.png">
-                            <p>Materialize</p>
-                        </div>
-                    </div>
+                        </div>                       
+                    
                     <!--New Row-->
-                    <div class="row">
+                    <!-- <div class="row"> -->
+            <row>
                         <div class="col s3 m3"><img src="./css/skillsimg/js-256.png">
                             <p>JavaScript</p>
                         </div>
@@ -332,12 +351,10 @@
                         <div class="col s3 m3"><img src="./css/skillsimg/mysql-badge-256.png">
                             <p>mySQL</p>
                         </div>
-                    </div>
-                    <!--New Row-->
-
-                    <div class="col s3 m12" style="align-content: center"><img
-                            src="./css/skillsimg/react-1-logo-png-transparent.png">
-                        <p>React</p>
+                        <div class="col s3 m3"><img src="./css/skillsimg/react-1-logo-png-transparent.png">
+                            <p>React</p>
+                        </div>
+            </row>
                     </div>
                 </div>
             </div>
@@ -348,10 +365,17 @@
 
 
     <!-------------------Design SKILLS--------------------------->
-    <div class="section designSection">
+    <!-- <div class="section designSection">
         <div class="section scrollspy" id="designSection">
             <div class="container">
-                <h3 class="header text_b center" style="text-decoration: underline">Skills-Design</h3>
+                <h3 class="header text_b center" style="text-decoration: underline">Skills-Design</h3> -->
+                <div class="section scrollSpy designSection " id="designSection">
+
+                        <div class="section">
+                                <div class="section scrollspy" id="designSection">
+                                    <div class="container">
+                            <h3 class="header text_b center" style="text-decoration: underline">Skills-Design</h3>
+            
 
                 <div class="row center-align">
                     <div class="col s3 m3"><img src="./css/skillsimg/Adobe_Photoshop.png">
@@ -365,6 +389,20 @@
                     </div>
                     <div class="col s3 m3"><img src="./css/skillsimg/3_Xd_Adobe_logo_logos-512.png">
                         <p>Adobe xd</p>
+                    </div>
+                    <div class="col s3 m3"><img src="./css/skillsimg/bootstrap-256.png">
+                        <p>Bootstrap</p>
+                    </div>
+
+                    <div class="col s3 m3"><img src="https://c7.uihere.com/icons/504/989/221/material-ui-a2b4c38dfd4954b9b86ee5eece412d5b.png">
+                        <p>Material UI</p>
+                    </div>
+                        <div class="col s3 m3"><img src="./css/skillsimg/bootstrap-256.png">
+                            <p>Bootstrap</p>
+                        </div>
+
+                    <div class="col s3 m3"><img src="./css/skillsimg/materialize.png">
+                        <p>Materialize</p>
                     </div>
                 </div>
             </div>
