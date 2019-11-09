@@ -17,10 +17,18 @@ nav, header{
     background: rgba(0,0,0,.6);
     overflow: hidden;
     z-index:1; 
-    
 }
 
-nav a {
+nav{
+    position: absolute;
+}
+#home{
+    position: fixed;
+    padding-top: 1vh;
+    padding-left: 1em;
+    font-size: 1em;
+}
+nav, a {
     font-size: 16px;
     letter-spacing: -0.5px;
     text-align:center; 
