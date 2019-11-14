@@ -26,7 +26,6 @@ nav{
 }
 #home{
     position: fixed;
-
     font-size: 2vh;
     
 }
@@ -187,6 +186,7 @@ img {
 .responsive-img{
     width: 25%;
     align-content: center;
+    padding-bottom: 2em;
 
 }
 
